@@ -1,4 +1,4 @@
-* {
+    * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -1140,36 +1140,126 @@ a {
         display: flex;
     }
 
+    .hero {
+        padding: 3rem 4% 2rem;
+    }
+
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 1.8rem;
     }
 
     .tagline {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
-    .sun {
-        font-size: 3rem;
-        right: 20px;
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
     }
 
-    .cloud {
+    .btn {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .section {
+        padding: 2.5rem 4%;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .about-content {
+        flex-direction: column-reverse;
+        padding: 1.5rem;
+        text-align: center;
+    }
+
+    .avatar-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about-quote {
+        font-size: 1rem !important;
+        padding: 1rem;
+    }
+
+    .about-desc {
+        font-size: 0.95rem !important;
+        padding: 0.8rem 1rem;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+    }
+
+    .about-music {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0.6rem 1rem;
+        font-size: 0.85rem;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+
+    .skill-card {
+        padding: 1.5rem;
+    }
+
+    .skill-icon {
         font-size: 2.5rem;
     }
 
+    .personality-badge {
+        padding: 0.8rem 1.2rem;
+        font-size: 0.9rem;
+    }
+
+    .sun {
+        font-size: 2.5rem;
+        right: 10px;
+        top: 30px;
+    }
+
+    .cloud {
+        font-size: 2rem;
+    }
+
+    .hero-illustration {
+        display: none;
+    }
+
+    .experience-section,
+    .projects-section {
+        padding: 2.5rem 4%;
+    }
+
+    .sub-title {
+        font-size: 1.3rem;
+    }
+
     .timeline::before {
-        left: 20px;
+        left: 15px;
     }
 
     .timeline-item,
     .timeline-item:nth-child(even) {
-        padding-left: 60px;
+        padding-left: 45px;
         padding-right: 0;
         justify-content: flex-start;
     }
 
     .timeline-marker {
-        left: 20px;
+        left: 15px;
+        width: 18px;
+        height: 18px;
     }
 
     .timeline-content,
@@ -1177,20 +1267,83 @@ a {
         margin-left: 0;
         margin-right: 0;
         max-width: 100%;
+        padding: 1.2rem;
     }
 
-    .contact-info {
-        flex-direction: column;
-        align-items: center;
+    .timeline-content h3 {
+        font-size: 1.1rem;
+    }
+
+    .timeline-details li {
+        font-size: 0.85rem;
+    }
+
+    .edu-grid,
+    .work-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .edu-card,
+    .work-card {
+        padding: 1.5rem;
     }
 
     .projects-grid {
         grid-template-columns: 1fr;
     }
 
+    .project-info {
+        padding: 1.2rem;
+    }
+
+    .project-info h3 {
+        font-size: 1.2rem;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .contact-item {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .footer {
+        padding: 1.5rem;
+        font-size: 0.9rem;
+    }
+
     .fun-corner {
         right: 10px;
         bottom: 10px;
+    }
+
+    .fun-bubble {
+        padding: 8px 12px;
+    }
+
+    .bubble-emoji {
+        font-size: 1.4rem;
+    }
+
+    .bubble-hint {
+        font-size: 0.75rem;
+    }
+
+    .fun-btn {
+        width: 45px;
+        height: 45px;
+    }
+
+    .btn-emoji {
+        font-size: 1.3rem;
+    }
+
+    .wave-container {
+        height: 100px;
     }
 }
 
@@ -1313,3 +1466,5 @@ a {
         box-shadow: 0 6px 30px rgba(76, 175, 80, 0.4);
     }
 }
+
+    
